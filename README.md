@@ -33,11 +33,12 @@ npm install
 
 ## Langkah 3: Menjalankan Test
 
-1. Edit file `test.js` sesuai kebutuhan Anda.
-2. Buka terminal dan jalankan perintah:
+1. Masuk ke folder integrationTest / performanceTest
+2. buka file yang diinginkan. misal  `create.js`
+3. Buka terminal dan jalankan perintah:
 
 ```bash
-k6 run test.js
+k6 run create.js
 ```
 
 Buka file `postReport.html` untuk melihat visualisasi hasil uji kinerja.
