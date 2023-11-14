@@ -15,10 +15,10 @@ export const options = {
 };
 
 export default function () {
-    const res = http.put("https://reqres.in/api/users/10");
+    const res = http.put("https://reqres.in/api/users/2");
     const payload = JSON.stringify({
         name : "morpheus",
-        job : "president"
+        job : "zion resident"
     });
 
     const params = {
